@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.shwetabodhankar/weather-gitsync",
+  "title": "Weather MCP (Git sync test)",
+  "description": "Mock weather MCP server. Implements Streamable HTTP only at /mcp. Used to test whether API Center Git sync preserves remotes[].type.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://weather-mcp-20261006232520-7688.azurewebsites.net/mcp"
+    }
+  ]
+}
